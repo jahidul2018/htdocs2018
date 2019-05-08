@@ -1,0 +1,54 @@
+/**div{color: red;}
+#my_first_div{
+	height: 140px;
+	background:pink;
+	width: 50%; 
+	color: black; 
+	border: 10px solid rgb(23,54,22,.35);
+	border-radius: 5px;
+	font-size: 20px;
+	background-image: url("../imagrs/bg.jpg");
+}
+.div_class{color: red;}
+#first_div p{}
+#sec_div p{color: yellow;
+			 font-size: 40px;
+			}
+#myid{
+	height: 40px;
+	width: 50%;
+	color: pink;
+	padding: 5px;
+}
+#id{
+	height: 40px;
+	width: 50%;
+	background:pink;
+	padding: 5px;
+	text-shadow:1px 2px 5px red;
+	box-shadow: 1px 2px 30px black; 
+	position: relative;
+	top: 50px;
+}
+#id1{
+	margin-top: 100px;
+	height: 40px;
+	width: 50%;
+	background:pink;
+	padding: 5px;
+	text-shadow:1px 2px 5px red;
+	box-shadow: 1px 2px 30px red; 
+	position: absolute;
+	right: 50px
+
+}
+@font-face{
+	font-family: nicefont;
+	src:url("../fonts/nicefont.otf");
+}
+#id2{
+	font-family: verdana;
+}
+*/
+
+

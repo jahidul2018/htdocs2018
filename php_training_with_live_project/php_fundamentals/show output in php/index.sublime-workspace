@@ -1,0 +1,757 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"php",
+				"php\t<?php … ?>"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"ech",
+				"echo〔keyword〕"
+			],
+			[
+				"bg",
+				"$bgcolor〔variable〕"
+			],
+			[
+				"fornt",
+				"font-family: 〔property〕"
+			],
+			[
+				"f",
+				"$fonts〔variable〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"file",
+				"$filetype〔variable〕"
+			],
+			[
+				"MY",
+				"mysql_query"
+			],
+			[
+				"_",
+				"$_FILES〔variable〕"
+			],
+			[
+				"up",
+				"$uploads_dir〔variable〕"
+			],
+			[
+				"UPLO",
+				"Upload"
+			],
+			[
+				"SITE_",
+				"SITE_ROOT"
+			],
+			[
+				"tmp",
+				"tmp_name"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"dir",
+				"dirname〔function〕"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"mult",
+				"multiple"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"heder",
+				"header"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"de",
+				"$delete_id〔variable〕"
+			],
+			[
+				"data",
+				"$database〔variable〕"
+			],
+			[
+				"dele",
+				"delete_id"
+			],
+			[
+				"pos",
+				"$post〔variable〕"
+			],
+			[
+				"po",
+				"$post〔variable〕"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"FILTER_SAN",
+				"FILTER_SANITIZE_STRING〔constant〕"
+			],
+			[
+				"INPUT",
+				"INPUT_POST〔constant〕"
+			],
+			[
+				"filter_in",
+				"filter_input_array〔function〕"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"LE",
+				"LABEL\tTag"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"da",
+				"database"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"end",
+				"endforeach〔keyword〕"
+			],
+			[
+				"prin",
+				"print_r〔function〕"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"def",
+				"default〔keyword〕"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"cas",
+				"case〔keyword〕"
+			],
+			[
+				"P",
+				"PDO"
+			],
+			[
+				"is_",
+				"is_int〔function〕"
+			],
+			[
+				"swi",
+				"switch〔function〕"
+			],
+			[
+				"ty",
+				"$type〔variable〕"
+			],
+			[
+				"is_n",
+				"is_null〔function〕"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sho",
+				"show_up"
+			],
+			[
+				"key",
+				"keyup〔function〕"
+			],
+			[
+				"sh",
+				"show_up"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"te",
+				"$text〔variable〕"
+			],
+			[
+				"html",
+				"htmlspecialchars〔function〕"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"to",
+				"top\ttop"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"string",
+				"ps_string_geometry"
+			],
+			[
+				"function",
+				"create_function"
+			],
+			[
+				"ret",
+				"return〔keyword〕"
+			],
+			[
+				"copyr",
+				"copywriter"
+			],
+			[
+				"side",
+				"sideband"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"class",
+				"class\tAttr"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"section",
+				"section\tTag"
+			],
+			[
+				"secti",
+				"section"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"ht",
+				"html\thtml"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"s",
+				"select\tTag"
+			],
+			[
+				"spa",
+				"span\tTag"
+			],
+			[
+				"secon",
+				"secondary"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"result",
+				"mysql_result"
+			],
+			[
+				"mysqlf",
+				"mysql_fetch_row"
+			],
+			[
+				"mys",
+				"mysql_fetch_assoc〔function〕"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"foun",
+				"newt_form_set_background"
+			],
+			[
+				"format",
+				"money_format"
+			],
+			[
+				"d",
+				"date"
+			],
+			[
+				"log",
+				"log1p〔function〕"
+			],
+			[
+				"filename",
+				"filepro_fieldname"
+			],
+			[
+				"ph",
+				"php_check_syntax"
+			],
+			[
+				"e",
+				"em\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "au",
+		"selected_items":
+		[
+			[
+				"au",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"auto",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"la",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"e",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"conf",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"terial",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"ma",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"m",
+				"UI: Select Theme"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			],
+			[
+				"is",
+				"Package Control: Install Package"
+			],
+			[
+				"EMMET",
+				"Toggle Comment"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"instrall package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/php_training_with_live_project/php_fundamentals/php variabls/index.php",
+		"/C/xampp/htdocs/shareboard/config.php",
+		"/C/xampp/htdocs/shareboard/views/shares/index.php",
+		"/C/xampp/htdocs/shareboard/models/share.php",
+		"/C/xampp/htdocs/shareboard/views/main.php",
+		"/C/xampp/htdocs/shareboard/index.php",
+		"/C/xampp/htdocs/shareboard/views/shares/add.php",
+		"/C/xampp/htdocs/shareboard/classes/Bootstrap.php",
+		"/C/xampp/htdocs/shareboard/controllers/users.php",
+		"/C/xampp/htdocs/shareboard/controllers/shares.php",
+		"/C/xampp/htdocs/shareboard/controllers/home.php",
+		"/C/xampp/htdocs/shareboard/classes/Model.php",
+		"/C/xampp/htdocs/shareboard/classes/Controller.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/views/users/register.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/views/users/login.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/index.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/views/main.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/models/user.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/classes/Model.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/index.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/views/main.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/models/share.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/models/user.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Login & Sessions/shareboard/shareboard/controllers/users.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/views/shares/index.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/controllers/shares.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/Message Class & Access Control/shareboard/shareboard/classes/Messages.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Registration/php.dev/php.dev/views/users/register.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Registration/php.dev/php.dev/models/user.php",
+		"/E/2018/udemy/Learn Object Oriented PHP By Building a Complete Website/sharebord/User Registration/php.dev/php.dev/controllers/users.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/views/shares/index.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/views/shares/add.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/models/share.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/controllers/shares.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/classes/Model.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Adding Shares/shareboard/shareboard/models/home.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/views/home/index.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/views/users/register.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/views/shares/add.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/classes/Controller.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/classes/Model.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/controllers/shares.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/views/main.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/models/share.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/assets/css/style.css",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/config.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Views/shareboard/shareboard/views/shares/index.php",
+		"/C/xampp/htdocs/zip/multipleimage.php",
+		"/C/xampp/htdocs/zip/create_zip.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Folder Structure & Bootstrap Class/shareboard/shareboard/classes/Bootstrap.php",
+		"/C/xampp/htdocs/like/index.php",
+		"/C/xampp/htdocs/likeunlike/db.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/index.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/config.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/classes/Controller.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/classes/Bootstrap.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/controllers/home.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/controllers/shares.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Controllers/shareboard/shareboard/controllers/users.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/classes/Bootstrap.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/models/user.php",
+		"/C/Users/mike2016trison/AppData/Local/Temp/Rar$DIa9984.49788/config.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/config.php",
+		"/C/Users/mike2016trison/Desktop/Real time search with PHP PDO and Ajax/Real time search with PHP PDO and Ajax/search.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/controllers/users.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/index.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/classes/Controller.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/models/home.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/controllers/home.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/classes/Model.php",
+		"/C/Users/mike2016trison/Desktop/sharebord/Creating Models/shareboard/shareboard/models/share.php",
+		"/C/Users/mike2016trison/Desktop/Real time search with PHP PDO and Ajax/Real time search with PHP PDO and Ajax/index.php",
+		"/C/xampp/htdocs/likeunlike/db.sql",
+		"/C/xampp/htdocs/zip/fileupload.php",
+		"/C/Users/mike2016trison/Desktop/ewsd/fileupload.php",
+		"/C/Users/mike2016trison/Desktop/ewsd/create_zip.php",
+		"/C/Users/mike2016trison/Desktop/ewsd/multipleimage.php",
+		"/C/xampp/htdocs/PDO/classes/Database.php",
+		"/C/xampp/htdocs/PDO/index.php",
+		"/C/xampp/htdocs/PDO/post.php",
+		"/C/xampp/htdocs/PDO/postupdate.php",
+		"/C/xampp/htdocs/PDO/delete.php",
+		"/C/xampp/htdocs/ecomphp/addtocart.php",
+		"/C/xampp/htdocs/ecomphp/edit-address.php",
+		"/C/Users/mike2016trison/Desktop/ContactFrom_v3/ContactFrom_v3/index.html",
+		"/C/xampp/htdocs/PDO/database/posts.sql",
+		"/E/my 1st web program/new1.html",
+		"/C/Users/mike2016trison/Google Drive/DIA 2016/DIIT/basic.html",
+		"/C/Users/mike2016trison/Desktop/user login register/config.php",
+		"/C/Users/mike2016trison/Desktop/user login register/logout.php",
+		"/C/Users/mike2016trison/Desktop/user login register/Secondpage.php",
+		"/C/Users/mike2016trison/Desktop/user login register/login.php",
+		"/C/xampp/htdocs/userLogin/main.php",
+		"/C/xampp/htdocs/userLogin/login.php",
+		"/C/xampp/htdocs/userLogin/logout.php",
+		"/C/xampp/htdocs/userLogin/config.php",
+		"/C/Users/mike2016trison/Desktop/user login register/main.php",
+		"/C/Users/mike2016trison/Desktop/go.sql",
+		"/C/Users/mike2016trison/Desktop/Php coding for registration with emial verifiaction/test/config.php",
+		"/C/Users/mike2016trison/Desktop/Developer desks- session/Developer desks- session/index.php",
+		"/C/Users/mike2016trison/Desktop/Developer desks- session/Developer desks- session/logout.php",
+		"/C/xampp/htdocs/bootstrap-comment-2015-11-17/comment-template.php",
+		"/C/xampp/htdocs/bootstrap-comment-2015-11-17/comment.sql",
+		"/C/xampp/htdocs/bootstrap-comment-2015-11-17/like-dislike.php",
+		"/C/xampp/htdocs/bootstrap-comment-2015-11-17/config.php",
+		"/C/Users/mike2016trison/Desktop/file_upload/index.html",
+		"/C/xampp/htdocs/payplepayment/ipnhandler.php",
+		"/C/xampp/htdocs/payplepayment/pay.php",
+		"/C/xampp/htdocs/likeunlike/script.js",
+		"/C/xampp/htdocs/likeunlike/Index.php",
+		"/C/xampp/htdocs/likeunlike/style.css",
+		"/C/xampp/htdocs/like/styles.css",
+		"/C/xampp/htdocs/like/font-awesome.min.css",
+		"/C/Users/mike2016trison/Desktop/like/index.php",
+		"/C/Users/mike2016trison/Desktop/like/styles.css",
+		"/C/Users/mike2016trison/Downloads/font-awesome.min.css",
+		"/E/tutorial with live project/01.Bootstrap-Basic-Project-part-1/index.html",
+		"/C/xampp/htdocs/realtimepdotextboxsearch/search.php",
+		"/C/xampp/htdocs/realtimepdotextboxsearch/classes/Database.php",
+		"/C/xampp/htdocs/realtimepdotextboxsearch/index.php",
+		"/E/BIT 2018/PDO/Fetching Data/php.dev/classes/Database.php",
+		"/C/Users/mike2016trison/Desktop/Real time search with PHP PDO and Ajax/search.php",
+		"/C/Users/mike2016trison/Desktop/Real time search with PHP PDO and Ajax/index.php",
+		"/C/Users/mike2016trison/AppData/Local/Packages/Microsoft.MicrosoftEdge_8wekyb3d8bbwe/TempState/Downloads/jquery.min.js",
+		"/C/Users/mike2016trison/Desktop/PDO database class and connection/php.dev/index.php",
+		"/C/Users/mike2016trison/Desktop/PDO database class and connection/php.dev/classes/Database.php",
+		"/C/Users/mike2016trison/Desktop/Class Inheritance/php.dev/index.php",
+		"/C/Users/mike2016trison/Desktop/__get & __set Magic Methods/php.dev/index.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

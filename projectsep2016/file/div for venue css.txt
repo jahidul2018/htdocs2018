@@ -1,0 +1,30 @@
+class {
+padding-top: 15px;
+color: #8e290c;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+line-height: 25px;
+box-sizing: border-box;
+}
+
+ul {
+    margin: 15px 0px 0px 0px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+
+ul li .view-more-btn {
+    font-size: 14px;
+    background: #f7e1a9;
+    border: 1px solid #f8d136;
+    color: #8e290c;
+    border-radius: initial !important;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 27px;
+}

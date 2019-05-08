@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS `customerrecords` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `PaymentStatus` varchar(20) DEFAULT NULL,
+  `PaymentAmount` decimal(6,2) DEFAULT NULL,
+  `PaymentCurrency` varchar(20) DEFAULT NULL,
+  `PayerEmail` varchar(50) DEFAULT NULL,
+  `ReceiverEmail` varchar(50) DEFAULT NULL,
+  `TransactionID` varchar(30) DEFAULT NULL,
+  `ProductPurchased` varchar(60) DEFAULT NULL,
+  `IPAddress` varchar(15) DEFAULT NULL,
+  `DownloadStatus` varchar(10) DEFAULT NULL,
+  `Cur_TimeStamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `username` varchar(50) NOT NULL,
+  `package_access` int(12) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

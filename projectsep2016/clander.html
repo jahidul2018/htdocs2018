@@ -1,0 +1,237 @@
+<div class="menu_title_bg" style="margin: 20px 0 0 0"><center>Booking Candler</center></div>
+<script type="text/javascript" language="javascript">
+      window.onload = function()
+      {
+          show_month_default('2016');
+		  loadpage(1);
+      };
+</script>
+<style type="text/css">
+#unicode_font{
+	font-family:SolaimanLipi;
+	font-size:11px;
+	text-align:left;
+}
+
+/* JCalendar */
+.th{
+	font-family:SolaimanLipi;
+	font-weight:normal;
+	text-align:center;
+	background:#367226;
+	width:23px;
+	font-size:12px;
+	color:#FFFFCC
+}
+.td{
+	font-family:SolaimanLipi;
+	font-size:11px;
+	background-color:#9ECE6A;
+	text-align:center;
+	color:#CCCCCC;
+	padding:3px 2px 3px 2px;
+}
+
+#unpublish_date{
+	background-color:#717070;
+	color:#D2CCCC
+}	
+#selected_date{
+	background:#CD0000;		
+	color:#CCFF00
+}	
+
+#clear{
+	clear:both;
+	height:0px;
+	font-size:0px;
+	margin:0;
+}
+
+.unicode{
+	font-family:SolaimanLipi;
+	font-weight:normal;
+	text-align:center;
+	font-size:11px;
+	color:#000000
+}
+.jcalendar_link th{
+	font-family:SolaimanLipi;
+	font-weight:normal;
+	text-align:center;
+	background:#ff0000;
+	width:23px;
+	font-size:11px;
+	color:#FFFFCC
+}
+.jcalendar_link td{
+	font-family:SolaimanLipi;
+	font-size:11px;
+	background-color:#878686;
+	text-align:center;
+	color:#CCCCCC;
+	padding:3px 2px 3px 2px;
+}
+#unselected_date{
+	background:#ffffff;
+	color: #000000;
+}
+</style>
+<script type="text/javascript">
+function show_list(){
+	var mon = document.getElementById('month').value;
+	var year = document.getElementById('year').value;
+	var url = '../../../cal/date.php?mon='+mon+'&year='+year;
+	//alert(url);
+	ajaxRouter(url, "returnLogin", true);
+	return(false);
+	}
+	
+function returnLogin(responseText){	
+		document.getElementById('week_select').innerHTML = responseText;
+	}
+function show_month(){
+	var year = document.getElementById('year').value;
+	var url = '../../../cal/month.php?year='+year;
+	ajaxRouter(url, "returnMon", true);
+	return(false);
+	}
+
+function returnMon(responseText){	
+		document.getElementById('month_select').innerHTML = responseText;
+		show_list();
+	}	
+
+function show_month_default(x){
+	var url = '../../../cal/month.php?year='+x+'&cur_month='+06;
+	ajaxRouter(url, "returnMon_default", true);
+	return(false);
+	}
+function returnMon_default(responseText){
+	//alert('HELLo');
+	document.getElementById('month_select').innerHTML = responseText;
+	show_list();
+	}	
+</script>
+
+
+
+<div id="select_date">
+
+
+	<div align="center">
+		<table width="525" cellspacing="0" cellpadding="0" border="0" height="100" id="table7">
+			<tbody><tr>
+					<td valign="top" height="25" style="padding-top:5px">
+						<div id="month_select" style="float: left;">
+							<select class="unicode" id="month" name="month" onchange="show_list();" style="text-align=" left"="">
+							<option value="01">January </option>,
+							<option value="02">February </option>, 
+							<option value="03">March </option>,
+							<option value="04">April </option>, 
+							<option value="05">May </option>, 
+							<option selected="selected" value="06">June </option>, 
+							<option value="07">July </option>,
+							<option value="08">August </option>, 
+							<option value="09">September </option>,
+							<option value="010">October </option>, 
+							<option value="011">November </option>,
+							<option value="012">December</option>
+							</select>
+						</div>
+		
+						<div style="float: right;">
+							<select onchange="show_month();" name="dyear" id="year" class="unicode">
+								<option value="2013">2013</option>
+								<option value="2014">2014</option>
+								<option value="2015">2015</option>
+								<option selected="selected" value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018">2018</option>
+								<option value="2019">2019</option>
+								<option value="2020">2020</option>
+							</select>
+						</div>	
+		
+						<div id="clear"></div>
+						<div style="border: 1px solid rgb(164, 194, 194); margin-top: 5px;" id="select_date">
+							<!-- calender loading here-->
+							<div class="jcalendar_link" style="background-color:#fff " id="week_select">
+								<table width="100%" cellspacing="1" cellpadding="1" border="1">
+									<tbody>
+										<tr>
+											<th>sat</th>
+											<th>sun</th>
+											<th>mon</th>
+											<th>tues</th>
+											<th>wed</th>
+											<th>thur</th>
+											<th>fri</th>
+										</tr>
+									</tbody>
+								</table>
+								<table border="1" width="100%">
+									<tbody>
+										<tr>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/01/">01</a></div></font></td>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/02/">02</a> </div></font></td>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/03/">03</a> </div></font></td>
+										</tr>
+										<tr>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/04/">04</a> </div></font></td>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/05/">05</a> </div></font></td>
+											<td><font><div class="all_side" id="unselected_date"><a target="_top" href="../../../2016/06/06/">06</a> </div></font></td>
+											<td><div class="all_side" id="unpublish_date"> 07</div></td>
+											<td><div class="all_side" id="unpublish_date"> 08</div></td>
+											<td><div class="all_side" id="unpublish_date"> 09</div></td>
+											<td><div class="all_side" id="unpublish_date"> 10</div></td>
+										</tr>
+										<tr>
+											<td><div class="all_side" id="unpublish_date"> 11</div></td>
+											<td><div class="all_side" id="unpublish_date"> 12</div></td>
+											<td><div class="all_side" id="unpublish_date"> 13</div></td>
+											<td><div class="all_side" id="unpublish_date"> 14</div></td>
+											<td><div class="all_side" id="unpublish_date"> 15</div></td>
+											<td><div class="all_side" id="unpublish_date"> 16</div></td>
+											<td><div class="all_side" id="unpublish_date"> 17</div></td>
+										</tr>
+										<tr>
+											<td><div class="all_side" id="unpublish_date"> 18</div></td>
+											<td><div class="all_side" id="unpublish_date"> 19</div></td>
+											<td><div class="all_side" id="unpublish_date"> 20</div></td>
+											<td><div class="all_side" id="unpublish_date"> 21</div></td>
+											<td><div class="all_side" id="unpublish_date"> 22</div></td>
+											<td><div class="all_side" id="unpublish_date"> 23</div></td>
+											<td><div class="all_side" id="unpublish_date"> 24</div></td>
+										</tr>
+										<tr>
+											<td><div class="all_side" id="unpublish_date"> 25</div></td>
+											<td><div class="all_side" id="unpublish_date"> 26</div></td>
+											<td><div class="all_side" id="unpublish_date"> 27</div></td>
+											<td><div class="all_side" id="unpublish_date"> 28</div></td>
+											<td><div class="all_side" id="unpublish_date"> 29</div></td>
+											<td><div class="all_side" id="unpublish_date"> 30</div></td>
+											<td> </td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<!-- calernder Loading Here-->
+						</div>
+
+						<script type="text/javascript" src="../../../cal/DD_roundies_0.0.2a.js"></script>
+
+						<script>		
+							DD_roundies.addRule('.all_side', '25px',true);	
+						</script>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
